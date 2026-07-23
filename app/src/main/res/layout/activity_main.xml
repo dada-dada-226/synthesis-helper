@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎮 数字合成攻略器"
+        android:textSize="26sp"
+        android:textColor="#776E65"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚪ 未启动"
+        android:textSize="14sp"
+        android:textColor="#A39480"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 使用方法"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#776E65"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 点「开始攻略」授权\n2. 切换到游戏\n3. 看到 🎯 气泡，点一下开始\n4. 自动识别棋盘，显示方向\n5. 拖动气泡可移动位置\n6. 再点气泡可暂停"
+            android:textSize="14sp"
+            android:textColor="#776E65"
+            android:lineSpacingExtra="8dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="▶ 开始攻略"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F65E3B"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="■ 停止服务"
+        android:textSize="14sp"
+        android:textColor="#776E65"
+        android:backgroundTint="#D6CDC4"
+        android:visibility="gone"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚠️ 首次使用需授权悬浮窗和屏幕录制\n这两项权限仅用于识别棋盘，不会上传任何数据"
+        android:textSize="11sp"
+        android:textColor="#C4B9AA"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

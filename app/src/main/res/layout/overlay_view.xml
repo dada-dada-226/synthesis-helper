@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 悬浮窗布局：圆形气泡 + 方向提示 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="4dp">
+
+    <!-- 圆形气泡按钮 -->
+    <TextView
+        android:id="@+id/bubbleIcon"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/bubble_bg"
+        android:gravity="center"
+        android:text="🎯"
+        android:textSize="22sp"
+        android:elevation="8dp" />
+
+    <!-- 方向提示 -->
+    <TextView
+        android:id="@+id/directionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="36sp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:visibility="gone"
+        android:elevation="8dp" />
+
+    <!-- 标签 -->
+    <TextView
+        android:id="@+id/detailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:background="#CC333333"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:visibility="gone"
+        android:elevation="8dp" />
+
+</LinearLayout>

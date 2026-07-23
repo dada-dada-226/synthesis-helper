@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">数字合成攻略器</string>
+    <string name="start_service">开始攻略</string>
+    <string name="stop_service">停止攻略</string>
+    <string name="permission_overlay">需要悬浮窗权限，请在设置中开启</string>
+    <string name="permission_capture">需要屏幕录制权限来识别棋盘</string>
+    <string name="activation_required">请输入激活码解锁</string>
+    <string name="activate">激活</string>
+    <string name="calibrate_hint">请拖动四个角对齐游戏棋盘的四个角</string>
+</resources>
