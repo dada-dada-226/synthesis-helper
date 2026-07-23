@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 数字 1 和 8 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,30 L42,32 L48,32 L48,76 L42,76 L42,78 L66,78 L66,76 L54,76 L54,32 L66,32 L66,30 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,42 L42,44 L48,44 L48,52 L48,54 L48,64 L48,66 L42,66 L42,68 L60,68 L60,66 L54,66 L54,54 L60,54 L60,52 L54,52 L54,44 L60,44 L60,42 Z" />
+</vector>
