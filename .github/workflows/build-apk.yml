@@ -25,11 +25,11 @@ jobs:
         with:
           gradle-version: 8.5
 
-      - name: 构建 Release APK
-        run: gradle assembleRelease
+      - name: 构建 Debug APK（可直装）
+        run: gradle assembleDebug
 
       - name: 上传 APK
         uses: actions/upload-artifact@v4
         with:
           name: 攻略器-APK
-          path: app/build/outputs/apk/release/*.apk
+          path: app/build/outputs/apk/debug/*.apk
